@@ -1,5 +1,9 @@
+def build_greeting(name):
+    return f"Hello, {name}!"
+
+
 def main():
-    print("Hello, Git!")
+    print(build_greeting("Git learner"))
 
 
 if __name__ == "__main__":
